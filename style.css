@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
 }
-html{
-    font-family: "Josefin Sans", sans-serif;
-}
 body{
     background-color: white;
     font-family: "Josefin Sans", sans-serif;
@@ -57,4 +54,5 @@ button{
     font-weight: bold;
     font-size: larger;
     border: none;
+    font-family: "Josefin Sans", sans-serif;
 }
