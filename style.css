@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-color: gray;
+    background-color: white;
     font-family: "Josefin Sans", sans-serif;
 }
 .main{
@@ -14,6 +14,8 @@ body{
     padding: 20px;
     position: fixed;
     background-color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    z-index: 10;
 }
 .app-box{
     display: flex;
@@ -44,9 +46,12 @@ a {
     padding: 10px;
     border-radius: 15px;
     border: none;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 button{
-    background-color: transparent;
+    background-color: white;
+    font-weight: bold;
+    font-size: larger;
     border: none;
 }
