@@ -13,7 +13,7 @@ body{
     height: auto;
     padding: 20px;
     position: fixed;
-    background-color: black;
+    background-color: #252525;
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
     z-index: 10;
 }
@@ -22,10 +22,10 @@ body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 150px;
+    width: 120px;
     height: auto;
     padding: 15px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 20px;
     background-color: gainsboro;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -34,8 +34,8 @@ body{
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background-color: white;
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
     position: relative;
     margin: 10px;
     display: flex;
