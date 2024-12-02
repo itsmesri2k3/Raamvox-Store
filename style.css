@@ -8,14 +8,17 @@ body{
     font-family: "Josefin Sans", sans-serif;
 }
 .main{
-    top: 0%;
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    position: fixed;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-top: 12px;
+    position: relative;
     background-color: #252525;
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
-    z-index: 10;
+    z-index: 100;
+    border-radius: 15px;
 }
 .app-box{
     display: flex;
@@ -24,27 +27,28 @@ body{
     text-align: center;
     width: 120px;
     height: auto;
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     border-radius: 20px;
     background-color: gainsboro;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 .app-img{
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background-color: white;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     position: relative;
-    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 a {
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 11px;
     border: none;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -55,4 +59,18 @@ button{
     font-size: larger;
     border: none;
     font-family: "Josefin Sans", sans-serif;
+}
+.last{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-top: 12px;
+    text-align: center;
+    position: relative;
+    background-color: #252525;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    z-index: 100;
+    border-radius: 15px;
 }
