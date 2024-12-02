@@ -16,7 +16,7 @@ body{
     padding-top: 12px;
     position: relative;
     background-color: #252525;
-    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 100;
     border-radius: 15px;
 }
@@ -31,12 +31,12 @@ body{
     margin: 10px;
     border-radius: 20px;
     background-color: gainsboro;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     cursor: pointer;
 }
 .app-img{
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     background-color: white;
     height: 120px;
     width: 120px;
@@ -51,7 +51,7 @@ a {
     border-radius: 11px;
     border: none;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 button{
     background-color: white;
@@ -70,7 +70,7 @@ button{
     text-align: center;
     position: relative;
     background-color: #252525;
-    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 100;
     border-radius: 15px;
 }
